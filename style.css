@@ -1,0 +1,119 @@
+html {
+  background-image: url('back.png'); * Replace with your image path */
+  background-repeat: no-repeat;/
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; /* Optional: for fixed background */
+  height: 100%; /* Ensure html takes full height */
+  color: #ceb688;
+}
+
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+min-height: 35vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+    font-size: 600%;
+    font-family: Audiowide;
+}
+h2{
+    font-size: 300%;
+    font-family: Audiowide;
+}
+h3{
+    font-size: 250%;
+    font-family: Audiowide; 
+}
+h4{
+    font-size: 125%;
+  font-family: Audiowide;
+  text-align: center;
+}
+#wrapper{
+min-height: 35vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.input-group {
+    display: flex;
+    #gap: 1rem;
+    #margin-top: 1rem;
+}
+input[type="date"] {
+    background-color: #314977;
+    color: #ceb688;
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: Audiowide;
+}
+button {
+    padding: 12px 20px;
+    background-color: var(--primary-color);
+    color: #ceb688;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: Audiowide;
+}
+button:hover {
+    background-color: #314977;
+}
+button:active {
+    transform: scale(0.98);
+}
+.resultado {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers horizontally */
+}
+
+.resultado p {
+    margin: 0.5rem 0;
+    color: var(--subtle-text-color);
+}
+
+.resultado p strong {
+    color: var(--text-color);
+}
+
+.resultado h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+      justify-content: center;
+  align-items: center;
+}
+.resultado img {
+    max-width: 60%;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
